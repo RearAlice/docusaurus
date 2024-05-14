@@ -11,8 +11,8 @@ const projectName = "docusaurus";
   // url: `https://${organizationName}.github.io`,
   // baseUrl: `/${projectName}/`,
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "茅野ななみのVRChat向け支援ツール",
+  tagline: "茅野ななみのVRChat向け支援ツールの連携アプリなどを制作する際に役に立つ開発ドキュメントです。",
   url: `https://doc.ciangames.jp`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
@@ -125,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cian Games`,
       },
       prism: {
         theme: lightCodeTheme,
