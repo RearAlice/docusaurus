@@ -8,11 +8,13 @@ const organizationName = "rearalice";
 const projectName = "docusaurus";
 
 /** @type {import('@docusaurus/types').Config} */
+  // url: `https://${organizationName}.github.io`,
+  // baseUrl: `/${projectName}/`,
 const config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  url: `https://doc.ciangames.jp`,
+  baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
